@@ -15,7 +15,7 @@ public class StepImplementations {
 	}
 @When("^enter the username$")
 	public void enterUsername() {
-
+    System.out.println("GIT PUSH FROM ECLI");
 		System.out.println("username entered");
 	}
 @And("^enter the password$")
